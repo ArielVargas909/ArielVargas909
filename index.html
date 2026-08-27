@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historia Andina — Presentación del Proyecto</title>
+  <meta name="description"
+    content="Presentación multimedia de una historia andina: video, personajes, diagramas y storyboard.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ============ RUIDO / TEXTURA DE FONDO ============ -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ============ NAV FIJO (aparece al hacer scroll) ============ -->
+  <nav class="topnav" id="topnav" aria-label="Navegación principal">
+    <a href="#hero" class="topnav__mark" aria-label="Volver al inicio">
+      <svg viewBox="0 0 40 40" width="22" height="22" aria-hidden="true">
+        <rect x="16" y="2" width="8" height="8"></rect>
+        <rect x="8" y="10" width="8" height="8"></rect>
+        <rect x="24" y="10" width="8" height="8"></rect>
+        <rect x="2" y="18" width="8" height="8"></rect>
+        <rect x="16" y="18" width="8" height="8"></rect>
+        <rect x="30" y="18" width="8" height="8"></rect>
+        <rect x="8" y="26" width="8" height="8"></rect>
+        <rect x="24" y="26" width="8" height="8"></rect>
+        <rect x="16" y="34" width="8" height="8"></rect>
+      </svg>
+    </a>
+    <ul class="topnav__links">
+      <li><a href="#video" data-arm="video">Video de la Historia</a></li>
+      <li><a href="#personajes" data-arm="personajes">Personajes</a></li>
+      <li><a href="#diagramas" data-arm="diagramas">Diagramas</a></li>
+      <li><a href="#guion" data-arm="guion">Guion y Storyboard</a></li>
+    </ul>
+    <button class="topnav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero" id="hero">
+    <div class="hero__bg" aria-hidden="true"></div>
+
+    <p class="hero__eyebrow">Tahuantinsuyu · las cuatro partes de un mismo relato</p>
+
+    <h1 class="hero__title">
+      <span class="hero__title-line">Una historia</span>
+      <span class="hero__title-line hero__title-line--accent">andina</span>
+    </h1>
+
+    <p class="hero__subtitle">
+      Sube tu video, presenta a tus personajes, muestra tus diagramas y comparte el guion:
+      aquí nace la memoria de una historia contada desde los Andes.
+    </p>
+
+    <div class="chakana-wrap">
+      <svg id="chakanaSvg" class="chakana" viewBox="0 0 220 220" role="img"
+        aria-label="Cruz escalonada andina, usada como menú de navegación">
+        <title>Menú en forma de cruz andina</title>
+      </svg>
+
+      <a href="#video" class="chakana-label chakana-label--top" data-arm="video">
+        <span class="chakana-label__num">Norte</span>
+        <span class="chakana-label__text">Video de la Historia</span>
+      </a>
+      <a href="#personajes" class="chakana-label chakana-label--right" data-arm="personajes">
+        <span class="chakana-label__num">Este</span>
+        <span class="chakana-label__text">Personajes</span>
+      </a>
+      <a href="#diagramas" class="chakana-label chakana-label--bottom" data-arm="diagramas">
+        <span class="chakana-label__num">Sur</span>
+        <span class="chakana-label__text">Diagramas</span>
+      </a>
+      <a href="#guion" class="chakana-label chakana-label--left" data-arm="guion">
+        <span class="chakana-label__num">Oeste</span>
+        <span class="chakana-label__text">Guion y Storyboard</span>
+      </a>
+    </div>
+
+    <a href="#video" class="hero__scroll">
+      <span>Descubre la historia</span>
+      <svg width="14" height="20" viewBox="0 0 14 20" aria-hidden="true">
+        <path d="M7 0v18M1 12l6 6 6-6" stroke="currentColor" stroke-width="1.5" fill="none" />
+      </svg>
+    </a>
+  </header>
+
+  <div class="weave-divider" data-color="gold" aria-hidden="true">
+    <div class="weave-divider__inner"></div>
+  </div>
+
+  <!-- ============ SECCIÓN: VIDEO DE LA HISTORIA ============ -->
+  <section class="section" id="video">
+    <div class="section__head reveal">
+      <span class="section__eyebrow" style="color:var(--color-gold)">Norte · 01</span>
+      <h2 class="section__title">Video de la Historia</h2>
+      <p class="section__desc">El relato completo, en movimiento. Reemplaza el reproductor de abajo por tu video, y
+        comparte también la historia original en su forma escrita.</p>
+    </div>
+
+    <div class="video-block reveal">
+      <div class="video-frame">
+        <!--
+        INSTRUCCIONES:
+        1) Coloca tu archivo de video (por ejemplo historia.mp4) dentro de la carpeta /images/video/
+        2) Reemplaza el atributo src de la etiqueta <source> por la ruta a tu archivo.
+        3) Si prefieres usar YouTube o Vimeo, borra la etiqueta <video> y pega el <iframe> que te da la plataforma.
+      -->
+        <video controls poster="" class="video-frame__player">
+          <source src="images/video/historia.mp4" type="video/mp4">
+          Tu navegador no soporta el elemento de video.
+        </video>
+        <div class="video-frame__placeholder">
+          <svg width="46" height="46" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M8 5v14l11-7-11-7z" fill="currentColor" />
+          </svg>
+          <p>Sube tu video a <code>images/video/historia.mp4</code></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="story-toggle reveal">
+      <button class="story-toggle__btn" id="storyToggle" aria-expanded="false" aria-controls="storyText">
+        <span>Leer la historia original en texto</span>
+        <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true">
+          <path d="M2 5l5 5 5-5" stroke="currentColor" stroke-width="1.6" fill="none" />
+        </svg>
+      </button>
+      <div class="story-toggle__panel" id="storyText">
+        <div class="story-toggle__inner">
+          <p>
+            Escribe aquí la historia original completa, tal como fue narrada. Puedes incluir varios
+            párrafos: el contexto, el conflicto, los personajes principales y el desenlace. Este espacio
+            está pensado para que quien lea pueda comparar el texto original con la adaptación en video.
+          </p>
+          <p>
+            Reemplaza este texto de ejemplo por el contenido real de tu historia andina.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="weave-divider" data-color="turquoise" aria-hidden="true">
+    <div class="weave-divider__inner"></div>
+  </div>
+
+  <!-- ============ SECCIÓN: PERSONAJES ============ -->
+  <section class="section" id="personajes">
+    <div class="section__head reveal">
+      <span class="section__eyebrow" style="color:var(--color-turquoise)">Este · 02</span>
+      <h2 class="section__title">Personajes</h2>
+      <p class="section__desc">Quiénes dan vida al relato. Cada retrato se edita desde <code>js/script.js</code>: cambia
+        la imagen, el nombre y la descripción por los tuyos.</p>
+    </div>
+
+    <div class="card-grid" id="personajesGrid"></div>
+  </section>
+
+  <div class="weave-divider" data-color="red" aria-hidden="true">
+    <div class="weave-divider__inner"></div>
+  </div>
+
+  <!-- ============ SECCIÓN: DIAGRAMAS ============ -->
+  <section class="section" id="diagramas">
+    <div class="section__head reveal">
+      <span class="section__eyebrow" style="color:var(--color-red)">Sur · 03</span>
+      <h2 class="section__title">Diagramas</h2>
+      <p class="section__desc">Los mapas y esquemas detrás de la historia: relaciones, lugares o procesos. Haz clic en
+        cualquier imagen para verla en grande.</p>
+    </div>
+
+    <div class="card-grid card-grid--diagram" id="diagramasGrid"></div>
+  </section>
+
+  <div class="weave-divider" data-color="clay" aria-hidden="true">
+    <div class="weave-divider__inner"></div>
+  </div>
+
+  <!-- ============ SECCIÓN: GUION Y STORYBOARD ============ -->
+  <section class="section" id="guion">
+    <div class="section__head reveal">
+      <span class="section__eyebrow" style="color:var(--color-clay)">Oeste · 04</span>
+      <h2 class="section__title">Guion y Storyboard</h2>
+      <p class="section__desc">La secuencia, cuadro a cuadro. A diferencia de las otras secciones, aquí el orden
+        importa: desliza para seguir la historia en el orden en que fue filmada.</p>
+    </div>
+
+    <div class="filmstrip reveal">
+      <div class="filmstrip__track" id="storyboardTrack"></div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <svg viewBox="0 0 40 40" width="26" height="26" aria-hidden="true" class="footer__mark">
+      <rect x="16" y="2" width="8" height="8"></rect>
+      <rect x="8" y="10" width="8" height="8"></rect>
+      <rect x="24" y="10" width="8" height="8"></rect>
+      <rect x="2" y="18" width="8" height="8"></rect>
+      <rect x="16" y="18" width="8" height="8"></rect>
+      <rect x="30" y="18" width="8" height="8"></rect>
+      <rect x="8" y="26" width="8" height="8"></rect>
+      <rect x="24" y="26" width="8" height="8"></rect>
+      <rect x="16" y="34" width="8" height="8"></rect>
+    </svg>
+    <p>Proyecto de historia andina — hecho con hilo, memoria y código.</p>
+    <p class="footer__edit">Edita este pie de página en <code>index.html</code>.</p>
+  </footer>
+
+  <!-- ============ LIGHTBOX (para imágenes ampliadas) ============ -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Cerrar imagen">&times;</button>
+    <img src="" alt="" id="lightboxImg">
+    <p id="lightboxCaption"></p>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
