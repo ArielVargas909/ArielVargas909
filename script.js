@@ -46,7 +46,7 @@ const DIAGRAMAS = [
 const STORYBOARD = [
   {
     escena: "Escena 1",
-    img: "images/storyboard/escena-1.jpg",
+    img: "escena1.peng",
     descripcion: "Qué ocurre en este cuadro del guion."
   },
   {
