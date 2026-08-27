@@ -42,6 +42,9 @@
       <li><a href="#personajes" data-arm="personajes">Personajes</a></li>
       <li><a href="#diagramas" data-arm="diagramas">Diagramas</a></li>
       <li><a href="#guion" data-arm="guion">Guion y Storyboard</a></li>
+      <li class="topnav__sep" aria-hidden="true"></li>
+      <li><a href="#camino-heroe">Camino del Héroe</a></li>
+      <li><a href="#herramientas-ia">Herramientas de IA</a></li>
     </ul>
     <button class="topnav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -59,7 +62,7 @@
       <span class="hero__title-line hero__title-line--accent">andina</span>
     </h1>
 
-   
+
 
     <div class="chakana-wrap">
       <svg id="chakanaSvg" class="chakana" viewBox="0 0 220 220" role="img"
@@ -190,6 +193,38 @@ El yatiri, además, prepara distintas mesas rituales para la Pachamama, la madre
     <div class="filmstrip reveal">
       <div class="filmstrip__track" id="storyboardTrack"></div>
     </div>
+  </section>
+
+  <div class="weave-divider" data-color="neutral" aria-hidden="true">
+    <div class="weave-divider__inner"></div>
+  </div>
+
+  <!-- ============ SECCIÓN: CAMINO DEL HÉROE ============ -->
+  <section class="section" id="camino-heroe">
+    <div class="section__head reveal">
+      <span class="section__eyebrow" style="color:var(--color-cream-dim)">Estructura narrativa</span>
+      <h2 class="section__title">Camino del Héroe</h2>
+      <p class="section__desc">Cómo se aplicó de forma resumida la estructura del monomito a esta historia. Edita las
+        etapas en <code>script.js</code> para que reflejen tu propia versión.</p>
+    </div>
+
+    <div class="timeline" id="heroJourneyTimeline"></div>
+  </section>
+
+  <div class="weave-divider" data-color="neutral" aria-hidden="true">
+    <div class="weave-divider__inner"></div>
+  </div>
+
+  <!-- ============ SECCIÓN: HERRAMIENTAS DE IA ============ -->
+  <section class="section" id="herramientas-ia">
+    <div class="section__head reveal">
+      <span class="section__eyebrow" style="color:var(--color-cream-dim)">Trabajo documentado</span>
+      <h2 class="section__title">Herramientas de Inteligencia Artificial</h2>
+      <p class="section__desc">Un registro honesto de qué herramientas de IA se usaron en este proyecto y para qué
+        parte del trabajo.</p>
+    </div>
+
+    <div class="tools-grid" id="aiToolsGrid"></div>
   </section>
 
   <!-- ============ FOOTER ============ -->
