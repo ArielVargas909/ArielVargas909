@@ -10,18 +10,18 @@
 const PERSONAJES = [
   {
     nombre: "Nombre del personaje 1",
-    img: "images/personajes/personaje-1.jpg",
+    img: "Alma.jpg",
     descripcion: "Describe brevemente quién es este personaje y qué papel cumple en la historia."
   },
   {
-    nombre: "Nombre del personaje 2",
+    nombre: "2. La entidad oscura / Sombra espectral",
     img: "images/personajes/personaje-2.jpg",
     descripcion: "Describe brevemente quién es este personaje y qué papel cumple en la historia."
   },
   {
     nombre: "Nombre del personaje 3",
-    img: "images/personajes/personaje-3.jpg",
-    descripcion: "Describe brevemente quién es este personaje y qué papel cumple en la historia."
+    img: "Alma.jpg",
+    descripcion: "El espíritu oscuro de las montañas que sorprende al joven y le roba el alma."
   }
 ];
 
