@@ -73,6 +73,31 @@ const STORYBOARD = [
     escena: "Escena 6",
     img: "escena6.jpeg",
     descripcion: "Tipo de plano: Plano entero $\rightarrow$ Primer plano $\rightarrow$ Plano general final.Descripción visual: * El sabio y el perro encuentran el cuerpo del joven en la montaña; el yatiri realiza el ritual junto a la fogata y le coloca la prenda.El joven abre los ojos, acaricia al perro agradecido y se sienta recuperado junto al fuego con las montañas de fondo.Audio / Diálogo: * Voz en off / Yatiri: Corre que la luz no se apague... El ajayu ha regresado.Música de resolución andina y calma."
+  },
+   {
+    escena: "Escena 7",
+    img: "es1.jpeg",
+    descripcion: "El Nodo Principal y la Perturbación (Host Crash) Visual: Un hombre camina por los senderos de Cerro Kallani con su poncho y sombrero tradicional. De repente, una entidad oscura lo intercepta, provocando una caída con un mensaje de error crítico en pantalla (HOST CRASH / ERROR 500). Concepto: Representa la falla crítica o interrupción imprevista de un nodo principal dentro de una red distribuida."
+  },
+   {
+    escena: "Escena 8",
+    img: "cany.jpeg",
+    descripcion: "El Nodo de Contingencia (Buffer Canino) Visual: Un perro toma una prenda (poncho) y corre velozmente por el terreno montañoso con un temporizador activo (TTL: 12:00:00), cruzando caminos hacia su destino. Concepto: Simula un mecanismo de respaldo (fallback/buffer) y un nodo de contingencia temporal encargado de transportar paquetes de datos/identidad antes de que expire el tiempo de vida (TTL)."
+  },
+   {
+    escena: "Escena 9",
+    img: "es3.jpeg",
+    descripcion: "El Procesador y la Compensación (Mesa Ritual) Visual: Un sabio (Yatiri) junto a una fogata actúa como el procesador central. El perro llega y entrega el token. Se despliega un diagrama interactivo de compensación que procesa las entradas, mitiga la perturbación y restaura el estado operativo al 100%. Concepto: Ilustra la ejecución de un protocolo de recuperación ante desastres (Disaster Recovery), validación de tokens y restauración de la homeostasis del sistema."
+  },
+   {
+    escena: "Escena 10",
+    img: "es4.jpeg",
+    descripcion: "Storyboard: Plano Principal: Un joven observa fijamente una interfaz holográfica flotante llamada Cerro Kartoogragly, que proyecta un modelo 3D del terreno montañoso. Efectos Visuales: Sobre el mapa tridimensional se encienden alertas parpadeantes de color rojo y amarillo que señalan puntos críticos de latencia y zonas de riesgo de desconexión territorial. Plano de Detalle: Se aprecian métricas numéricas exactas en pantalla (ej. tiempos de respuesta mayores a 10 u 110 horas, demoras críticas por falta de geolocalización)."
+  },
+   {
+    escena: "Escena 11",
+    img: "cany.jpeg",
+    descripcion: "Plano Inicial: Primer plano del personaje sonriendo en el altiplano, exhalando vapor debido al frío. Transición Tecnológica: Un plano medio muestra una tablet interactiva donde se manipulan datos biométricos y constantes vitales en tiempo real. Plano Amplio: El personaje sostiene la tablet frente a un poblado andino equipado con torres de comunicación y celdas solares, mostrando la integración de la tecnología en la comunidad. Plano Final: Atardecer sobre las montañas nevadas; el personaje y su fiel perro observan el horizonte pacíficamente, seguido de los créditos y el cierre (Fin)."
   }
 ];
 const HERO_JOURNEY = [
