@@ -48,7 +48,7 @@ const DIAGRAMAS = [
   },
    {
     titulo: "4. Diagrama de Actividades (Visto desde ingenieria de sistemas)",
-    img: "dgacti.svg",
+    img: "dsacti.svg",
     descripcion: "Estado Operativo: El sistema funciona con normalidad y estabilidad total. Falla Crítica (Host Crash): Una perturbación externa interrumpe el nodo principal, aislando al sistema y activando de inmediato un Nodo de Contingencia (Buffer) con un tiempo límite de vida (TTL). Procesamiento y Compensación: El buffer transporta los datos e identidad hacia el procesador central (Yatiri), el cual ejecuta el protocolo de recuperación. Restauración: Se validan las entradas para mitigar la perturbación, devolviendo el sistema al estado operativo inicial (equilibrio restaurado)."
   }
 ];
@@ -106,7 +106,7 @@ const STORYBOARD = [
   },
    {
     escena: "Escena 11",
-    img: "cany.jpeg",
+    img: "es5.jpeg",
     descripcion: "Plano Inicial: Primer plano del personaje sonriendo en el altiplano, exhalando vapor debido al frío. Transición Tecnológica: Un plano medio muestra una tablet interactiva donde se manipulan datos biométricos y constantes vitales en tiempo real. Plano Amplio: El personaje sostiene la tablet frente a un poblado andino equipado con torres de comunicación y celdas solares, mostrando la integración de la tecnología en la comunidad. Plano Final: Atardecer sobre las montañas nevadas; el personaje y su fiel perro observan el horizonte pacíficamente, seguido de los créditos y el cierre (Fin)."
   }
 ];
