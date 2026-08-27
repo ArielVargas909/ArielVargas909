@@ -46,23 +46,33 @@ const DIAGRAMAS = [
 const STORYBOARD = [
   {
     escena: "Escena 1",
-    img: "escena1.peng",
-    descripcion: "Qué ocurre en este cuadro del guion."
+    img: "escena1.jpeg",
+    descripcion: "Tipo de plano: Plano general panorámico $\rightarrow$ Plano medio lateral en movimiento.Descripción visual: * Vista de los Andes con terrazas de cultivo al atardecer.Un joven con poncho andino, chullo y sombrero camina por un sendero de montaña.Audio / Diálogo: * Música andina mística de fondo.Voz en off: En las alturas del cerro Cayani, el hombre convive con diversas fuerzas y misterios ancestrales..."
   },
   {
     escena: "Escena 2",
-    img: "images/storyboard/escena-2.jpg",
-    descripcion: "Qué ocurre en este cuadro del guion."
+    img: "escena2.jpeg",
+    descripcion: "Tipo de plano: Plano medio $\rightarrow$ Primer plano $\rightarrow$ Plano general corto.Descripción visual: * Una sombra espectral oscura con ojos brillantes desciende sobre el joven.El joven cae al suelo asustado mientras el ente extrae una silueta luminosa (su ajayu) de su pecho.Audio / Diálogo: * Voz en off: Una presencia oscura apagando su cuerpo...Sonido de viento y tensión espectral."
   },
   {
     escena: "Escena 3",
-    img: "images/storyboard/escena-3.jpg",
-    descripcion: "Qué ocurre en este cuadro del guion."
+    img: "escena3.jpeg",
+    descripcion: "Tipo de plano: Plano entero $\rightarrow$ Plano detalle.Descripción visual: * El joven llega débil y descalzo a la choza de un sabio/yatiri andino.El yatiri prepara un brasero central, colocando ofrendas sobre las brasas mientras el perro observa echado.Audio / Diálogo: * Yatiri: Has perdido el ajayu, tu cuerpo no resistirá. Tienes doce horas para hallar tu prenda y guiarme..."
   },
-  {
+   {
     escena: "Escena 4",
-    img: "images/storyboard/escena-4.jpg",
-    descripcion: "Qué ocurre en este cuadro del guion."
+    img: "escena4.jpeg",
+    descripcion: "Tipo de plano: Primer plano $\rightarrow$ Plano detalle del animal.Descripción visual: * El sabio sopla el humo aromático del incienso/sahumerio.El humo viaja en espirales hacia el hocico del perro, quien lo huele con atención, se levanta y toma el poncho del joven con el hocico.Audio / Diálogo: * Sonido de respiración, viento ritual y chasquido de brasas."
+  },
+   {
+    escena: "Escena 5",
+    img: "escena5.jpeg",
+    descripcion: "Tipo de plano: Plano general en traveling lateral. Descripción visual: El perro corre velozmente por las laderas andinas cargando el poncho rojo en su hocico, cruzando arroyos bajo un cielo tormentoso. Audio / Diálogo: * Canto / Narración ritual: Corre, sin palabras, con la prenda en el rastro guía al sabio a las coordenadas del pacto..."
+  },
+   {
+    escena: "Escena 6",
+    img: "escena6.jpeg",
+    descripcion: "Tipo de plano: Plano entero $\rightarrow$ Primer plano $\rightarrow$ Plano general final.Descripción visual: * El sabio y el perro encuentran el cuerpo del joven en la montaña; el yatiri realiza el ritual junto a la fogata y le coloca la prenda.El joven abre los ojos, acaricia al perro agradecido y se sienta recuperado junto al fuego con las montañas de fondo.Audio / Diálogo: * Voz en off / Yatiri: Corre que la luz no se apague... El ajayu ha regresado.Música de resolución andina y calma."
   }
 ];
 
