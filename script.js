@@ -9,9 +9,9 @@
 
 const PERSONAJES = [
   {
-    nombre: "Nombre del personaje 1",
-    img: "Alma.jpg",
-    descripcion: "Describe brevemente quién es este personaje y qué papel cumple en la historia."
+    nombre: "1. El joven caminante (Protagonista)",
+    img: "Joven.jpg",
+    descripcion: "El joven comunario que recorre los cerros y a quien le arrebatan su ajayu (alma/fuerza vital"
   },
   {
     nombre: "2. La entidad oscura / Sombra espectral",
@@ -19,9 +19,14 @@ const PERSONAJES = [
     descripcion: "Describe brevemente quién es este personaje y qué papel cumple en la historia."
   },
   {
-    nombre: "Nombre del personaje 3",
-    img: "Alma.jpg",
-    descripcion: "El espíritu oscuro de las montañas que sorprende al joven y le roba el alma."
+    nombre: "3. El Yatiri (Sabio / Curandero andino)",
+    img: "yatiri.jpg",
+    descripcion: "El anciano sabio que realiza el ritual con el fuego y el sahumerio para guiar el rescate del ajayu."
+  },
+   {
+    nombre: "4. El perro guía / fiel compañero",
+    img: "can.jpg",
+    descripcion: "El perro que recibe el rastro a través del humo sagrado, toma la prenda del joven y corre por las montañas guiando al sabio hasta donde yace el cuerpo"
   }
 ];
 
