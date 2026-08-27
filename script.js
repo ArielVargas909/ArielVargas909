@@ -15,7 +15,7 @@ const PERSONAJES = [
   },
   {
     nombre: "2. La entidad oscura / Sombra espectral",
-    img: "images/personajes/personaje-2.jpg",
+    img: "Alma.jpg",
     descripcion: "Describe brevemente quién es este personaje y qué papel cumple en la historia."
   },
   {
