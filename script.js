@@ -34,12 +34,17 @@ const DIAGRAMAS = [
   {
     titulo: "1. Diagrama de Casos de Uso",
     img: "dg_casosdeuso.svg",
-    descripcion: "Joven Caminante: Es la víctima central a quien la Entidad Oscura le arrebata el ajayu (fuerza vital) Al final, es rescatado gracias al ritual/Entidad Oscura  Sombra: Actúa como el antagonista que intercepta al joven en las alturas y apaga su cuerpo./Yatiri (Sabio): Detecta la pérdida del ajayu, advierte el límite de tiempo y conduce el ritual de sahumerio en la choza./Perro Guía: Recibe el rastro aromático del humo sagrado, toma la prenda y guía al sabio por el camino de la montaña hasta dar con el cuerpo."
+    descripcion: "Joven Caminante: Es la víctima central a quien la Entidad Oscura le arrebata el ajayu (fuerza vital) Al final, es rescatado gracias al ritual
+       "Entidad Oscura  Sombra: Actúa como el antagonista que intercepta al joven en las alturas y apaga su cuerpo.
+       "Yatiri (Sabio): Detecta la pérdida del ajayu, advierte el límite de tiempo y conduce el ritual de sahumerio en la choza.
+       "Perro Guía: Recibe el rastro aromático del humo sagrado, toma la prenda y guía al sabio por el camino de la montaña hasta dar con el cuerpo."
   },
   {
     titulo: "2. Diagrama de Actividades (Flujo de la Historia)",
     img: "actividades.png",
-    descripcion: "Fase de Incidente: Comienza con la caminata apacible del joven que se ve interrumpida por el ataque de la sombra espectral, la cual lo despoja de su energía vital./Fase de Alerta: El joven llega desorientado a la refugio del yatiri, quien establece la condición crítica y el tiempo límite (12 horas)./Fase de Resolución (Ritual y Acción): Mediante el fuego y el humo, el sabio transfiere el rastro al perro fiel. Este corre raudamente por la puna sorteando la tormenta hasta ubicar el cuerpo, permitiendo que el yatiri complete el ritual de sanación y el protagonista recupere su alma."
+    descripcion: "Fase de Incidente: Comienza con la caminata apacible del joven que se ve interrumpida por el ataque de la sombra espectral, la cual lo despoja de su energía vital.
+       "Fase de Alerta: El joven llega desorientado a la refugio del yatiri, quien establece la condición crítica y el tiempo límite (12 horas).
+       "Fase de Resolución (Ritual y Acción): Mediante el fuego y el humo, el sabio transfiere el rastro al perro fiel. Este corre raudamente por la puna sorteando la tormenta hasta ubicar el cuerpo, permitiendo que el yatiri complete el ritual de sanación y el protagonista recupere su alma."
   }
 ];
 
