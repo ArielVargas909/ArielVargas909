@@ -75,7 +75,40 @@ const STORYBOARD = [
     descripcion: "Tipo de plano: Plano entero $\rightarrow$ Primer plano $\rightarrow$ Plano general final.Descripción visual: * El sabio y el perro encuentran el cuerpo del joven en la montaña; el yatiri realiza el ritual junto a la fogata y le coloca la prenda.El joven abre los ojos, acaricia al perro agradecido y se sienta recuperado junto al fuego con las montañas de fondo.Audio / Diálogo: * Voz en off / Yatiri: Corre que la luz no se apague... El ajayu ha regresado.Música de resolución andina y calma."
   }
 ];
-
+const HERO_JOURNEY = [
+  {
+    titulo: "Mundo ordinario",
+    descripcion: "La vida cotidiana en el cerro Kallani, antes de cualquier encuentro con lo sobrenatural."
+  },
+  {
+    titulo: "Llamado a la aventura",
+    descripcion: "El encuentro con la Ñanqha rompe la normalidad y anuncia que algo ha cambiado."
+  },
+  {
+    titulo: "Cruce del umbral",
+    descripcion: "El susto vence a la persona: cae enferma y su ajayu (alma) es arrebatado."
+  },
+  {
+    titulo: "Pruebas y aliados",
+    descripcion: "Se busca al yatiri, quien indaga el lugar de la caída y guía el ritual de sanación."
+  },
+  {
+    titulo: "Retorno con el elixir",
+    descripcion: "El ajayu regresa y, mediante el pago a la Pachamama, se restablece el equilibrio."
+  }
+];
+const AI_TOOLS = [
+  {
+    nombre: "Claude (Anthropic)",
+    etiqueta: "Página web",
+    uso: "Usado para diseñar y programar esta página de presentación: la estructura, los estilos y las animaciones."
+  },
+  {
+    nombre: "Gemini (Google)",
+    etiqueta: "Guion · Storyboard · Video",
+    uso: "Usado para generar el guion, el storyboard y los videos de la historia."
+  }
+];
 /* ========================================================================= */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -83,12 +116,13 @@ document.addEventListener("DOMContentLoaded", () => {
   renderPersonajes();
   renderDiagramas();
   renderStoryboard();
+  renderHeroJourney();
+  renderAITools();
   setupNav();
   setupStoryToggle();
   setupReveal();
   setupLightbox();
 });
-
 /* --------------------------- CRUZ ANDINA (chakana) ---------------------- */
 function buildChakana(){
   const svg = document.getElementById("chakanaSvg");
@@ -241,7 +275,34 @@ function renderStoryboard(){
   });
   triggerImgFallbackCheck(track);
 }
-
+function renderHeroJourney(){
+  const el = document.getElementById("heroJourneyTimeline");
+  if (!el) return;
+  HERO_JOURNEY.forEach((etapa, idx) => {
+    const item = document.createElement("div");
+    item.className = "timeline__item reveal";
+    item.innerHTML = `
+      <span class="timeline__num">${String(idx + 1).padStart(2, "0")}</span>
+      <h3 class="timeline__title">${etapa.titulo}</h3>
+      <p class="timeline__desc">${etapa.descripcion}</p>`;
+    el.appendChild(item);
+  });
+  setupReveal(el.querySelectorAll(".reveal"));
+}
+function renderAITools(){
+  const grid = document.getElementById("aiToolsGrid");
+  if (!grid) return;
+  AI_TOOLS.forEach(tool => {
+    const card = document.createElement("div");
+    card.className = "tool-card reveal";
+    card.innerHTML = `
+      <span class="tool-card__tag">${tool.etiqueta}</span>
+      <h3 class="tool-card__name">${tool.nombre}</h3>
+      <p class="tool-card__use">${tool.uso}</p>`;
+    grid.appendChild(card);
+  });
+  setupReveal(grid.querySelectorAll(".reveal"));
+}
 /* asegura que los marcadores de imagen rota se muestren aunque el navegador
    dispare "error" antes de que el listener quede registrado */
 function triggerImgFallbackCheck(container){
