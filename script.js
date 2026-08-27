@@ -78,23 +78,31 @@ const STORYBOARD = [
 const HERO_JOURNEY = [
   {
     titulo: "Mundo ordinario",
-    descripcion: "La vida cotidiana en el cerro Kallani, antes de cualquier encuentro con lo sobrenatural."
+    descripcion: "Un joven comunario transcurre su vida cotidiana conviviendo con los misterios ancestrales de las alturas y las terrazas de cultivo en el cerro de la región andina."
   },
   {
     titulo: "Llamado a la aventura",
-    descripcion: "El encuentro con la Ñanqha rompe la normalidad y anuncia que algo ha cambiado."
+    descripcion: "Una presencia espectral oscura (el $\tilde{N}anqha$ o sombra) ataca de imprevisto al caminante y le arrebata su energía vital (el ajayu), dejándolo al borde del colapso físico."
   },
   {
-    titulo: "Cruce del umbral",
-    descripcion: "El susto vence a la persona: cae enferma y su ajayu (alma) es arrebatado."
+    titulo: "Encuentro con el Mentor y la Ayuda Sobrenatural:",
+    descripcion: "El joven logra llegar débil hasta la choza del Yatiri (el sabio andino). El anciano examina la situación y le otorga un ultimátum temporal crucial (doce horas), preparando un ritual con brasas, ofrendas y sahumerio."
   },
   {
-    titulo: "Pruebas y aliados",
-    descripcion: "Se busca al yatiri, quien indaga el lugar de la caída y guía el ritual de sanación."
+    titulo: "El Cruce del Umbral:",
+    descripcion: "Mediante el humo sagrado del ritual, el rastro del joven es transferido al perro fiel. El animal toma la prenda sagrada (el poncho) en el hocico y cruza el umbral de la puerta hacia el exterior para iniciar la búsqueda en la puna hostil."
   },
   {
-    titulo: "Retorno con el elixir",
-    descripcion: "El ajayu regresa y, mediante el pago a la Pachamama, se restablece el equilibrio."
+    titulo: "Pruebas, Aliados y Enemigos:",
+    descripcion: "El perro atraviesa condiciones adversas, tormentas con nubarrones oscuros, senderos empinados y riachuelos bajo la lluvia, guiado únicamente por el rastro de la prenda y su instinto leal."
+  },
+   {
+    titulo: "La Recompensa (El Éxito de la Misión):",
+    descripcion: "Siguiendo las coordenadas del pacto ancestral, el perro guía al Yatiri hasta donde yace el cuerpo inerte del joven en la montaña. El sabio aplica el ritual y la prenda para restablecer la conexión."
+  },
+{
+    titulo: "El Retorno con el Elixir (Restauración):",
+    descripcion: "El ajayu regresa a su dueño. El joven despierta reconfortado junto al fuego y su fiel compañero, habiendo superado la prueba límite y restaurado el equilibrio espiritual de su ser."
   }
 ];
 const AI_TOOLS = [
@@ -106,7 +114,7 @@ const AI_TOOLS = [
   {
     nombre: "Gemini (Google)",
     etiqueta: "Guion · Storyboard · Video",
-    uso: "Usado para generar el guion, el storyboard y los videos de la historia."
+    uso: "Storyboard por lapsos de 10 segundos: Estructuración cronológica de la narrativa visual, dividida en bloques temporales precisos con sus respectivos planos y diálogos en off de la leyenda andina.  Diseño y descripción de personajes: Conceptualización de los cuatro actores principales de la historia: el Joven Caminante, la Entidad Oscura (Sombra), el Yatiri (Sabio) y el Perro Guía.  Diagramas de software (Casos de Uso y Actividades): Modelado estructurado del flujo de la historia y las interacciones de los personajes, incluyendo sus descripciones y el código fuente listo para PlantUML. Aplicación del Camino del Héroe: Adaptación resumida del monomito clásico aplicado a las etapas del rescate del ajayu (mundo ordinario, llamada, mentor, cruce del umbral, pruebas, recompensa y retorno)."
   }
 ];
 /* ========================================================================= */
